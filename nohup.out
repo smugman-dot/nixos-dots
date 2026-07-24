@@ -1,0 +1,103 @@
+01:09:21.482 [[32mINF[0m] [[34mfdlimit[0m] RLIMIT_NOFILE soft limit raised 1024 -> 524288
+01:09:21.483 [[32mINF[0m] [[34mclipboard[0m] loaded 100 persisted clipboard entries
+01:09:21.483 [[32mINF[0m] [[34mconfig[0m] loading /home/walid/.local/state/noctalia/settings.toml
+01:09:21.483 [[32mINF[0m] [[34mplugins[0m] loaded plugin 'noctalia/bongocat' (1 entries) from /home/walid/.local/state/noctalia/plugins/materialized/official/bongocat
+01:09:21.483 [[32mINF[0m] [[34mplugins[0m] loaded plugin 'noctalia/wallhaven' (2 entries) from /home/walid/.local/state/noctalia/plugins/materialized/official/wallhaven
+01:09:21.484 [[33mWRN[0m] [[34mconfig[0m] widget.cat.scale: unknown setting
+01:09:21.484 [[32mINF[0m] [[34mconfig[0m] 1 bar(s) defined
+01:09:21.484 [[32mINF[0m] [[34mconfig[0m] bar order: default
+01:09:21.484 [[32mINF[0m] [[34mconfig[0m] idle behaviors=3
+01:09:21.484 [[32mINF[0m] [[34mconfig[0m] hooks kinds with commands=0
+01:09:21.485 [[32mINF[0m] [[34mthumbnail[0m] spawned 4 decode worker(s)
+01:09:21.503 [[32mINF[0m] [[34mapp[0m] noctalia v5.0.0
+01:09:21.507 [[32mINF[0m] [[34mi18n[0m] language: en (from en-US)
+01:09:21.572 [[32mINF[0m] [[34mseat[0m] keyboard: bound
+01:09:21.572 [[32mINF[0m] [[34mseat[0m] pointer: bound
+01:09:21.572 [[32mINF[0m] [[34mseat[0m] pointer: cursor-shape-v1 available
+01:09:21.572 [[32mINF[0m] [[34mwayland[0m] connected compositor=yes shm=yes layer-shell=yes xdg-shell=yes xdg-output=yes ext-workspace=yes kde-vd=no dwl-ipc=no session-lock=yes fractional-scale=yes gamma-control=yes outputs=1
+01:09:21.572 [[32mINF[0m] [[34mwayland[0m] output DP-1 global=46 wl_scale=1 detected_fractional_scale=1.000 logical=1920x1080 mode=1920x1080 orientation=normal desc="ASUSTek COMPUTER INC - VG249Q3A - DP-1"
+01:09:21.572 [[32mINF[0m] [[34mworkspace[0m] workspace backend=ext-workspace
+01:09:21.664 [[32mINF[0m] [[34mgl[0m] requesting robust EGL contexts with NVIDIA video-memory purge reset notification
+01:09:21.702 [[32mINF[0m] [[34mgl[0m] initialized EGL 1.5 with shared root context
+01:09:21.702 [[32mINF[0m] [[34mtext-input[0m] text-input-v3 bound
+01:09:21.702 [[32mINF[0m] [[34mapp[0m] distro: NixOS 26.05 (Yarara)
+01:09:21.702 [[32mINF[0m] [[34msysmon[0m] detected stats sources: cpu=/proc/stat memory=/proc/meminfo network=/proc/net/dev (2 active) load=/proc/loadavg disk=statvfs
+01:09:21.702 [[32mINF[0m] [[34msysmon[0m] detected CPU temperature source: hwmon:coretemp label="Package id 0" /sys/class/hwmon/hwmon2/temp1_input (39C)
+01:09:21.702 [[32mINF[0m] [[34msysmon[0m] detected GPU temperature source: unavailable; NVML-only mode active; NVML unavailable
+01:09:21.702 [[32mINF[0m] [[34msysmon[0m] detected GPU usage source: unavailable
+01:09:21.702 [[32mINF[0m] [[34msysmon[0m] detected GPU VRAM source: unavailable
+01:09:21.703 [[32mINF[0m] [[34mapp[0m] system monitor service active
+01:09:21.703 [[32mINF[0m] [[34mapp[0m] connected to system bus
+01:09:21.703 [[32mINF[0m] [[34mapp[0m] logind sleep monitor active
+01:09:21.703 [[32mINF[0m] [[34mapp[0m] accounts service disabled: [org.freedesktop.DBus.Error.ServiceUnknown] The name is not activatable
+01:09:21.703 [[32mINF[0m] [[34mapp[0m] power profiles service active (state loading asynchronously)
+01:09:21.703 [[33mWRN[0m] [[34mupower[0m] GetDisplayDevice failed: [org.freedesktop.DBus.Error.ServiceUnknown] The name is not activatable
+01:09:21.703 [[33mWRN[0m] [[34mupower[0m] EnumerateDevices failed: [org.freedesktop.DBus.Error.ServiceUnknown] The name is not activatable
+01:09:21.703 [[32mINF[0m] [[34mupower[0m] connected (no system battery present)
+01:09:21.703 [[33mWRN[0m] [[34mapp[0m] NetworkManager unavailable ([org.freedesktop.DBus.Error.ServiceUnknown] The name org.freedesktop.NetworkManager was not provided by any .service files), trying wpa_supplicant
+01:09:21.703 [[33mWRN[0m] [[34mapp[0m] wpa_supplicant unavailable ([org.freedesktop.DBus.Error.ServiceUnknown] The name fi.w1.wpa_supplicant1 was not provided by any .service files), trying iwd
+01:09:21.703 [[33mWRN[0m] [[34mapp[0m] network service disabled: [org.freedesktop.DBus.Error.ServiceUnknown] The name net.connman.iwd was not provided by any .service files
+01:09:21.703 [[32mINF[0m] [[34mapp[0m] bluetooth service active
+01:09:21.703 [[33mWRN[0m] [[34mbluetooth[0m] BlueZ agent registration failed: [org.freedesktop.DBus.Error.ServiceUnknown] The name is not activatable
+01:09:21.705 [[32mINF[0m] [[34mpipewire[0m] connected (version 1.6.6)
+01:09:21.705 [[32mINF[0m] [[34mwireplumber[0m] connected; loading mixer-api / default-nodes-api modules
+01:09:21.706 [[32mINF[0m] [[34msound[0m] loaded sound "volume-change" from /nix/store/sd0yi0g6k74bw65c11r62vx524scva1h-noctalia-5.0.0/share/noctalia/assets/sounds/volume-change.wav
+01:09:21.706 [[32mINF[0m] [[34msound[0m] loaded sound "notification" from /nix/store/sd0yi0g6k74bw65c11r62vx524scva1h-noctalia-5.0.0/share/noctalia/assets/sounds/notification.wav
+01:09:21.706 [[32mINF[0m] [[34mapp[0m] connected to session bus
+01:09:21.706 [[32mINF[0m] [[34mapp[0m] debug service active on dev.noctalia.Debug
+01:09:21.706 [[32mINF[0m] [[34mapp[0m] mpris discovery active
+01:09:21.706 [[32mINF[0m] [[34mapp[0m] listening on org.freedesktop.Notifications
+01:09:21.707 [[32mINF[0m] [[34mweather[0m] loaded cached weather data
+01:09:21.709 [[32mINF[0m] [[34mplugins[0m] loaded plugin 'noctalia/bongocat' (1 entries) from /home/walid/.local/state/noctalia/plugins/materialized/official/bongocat
+01:09:21.709 [[32mINF[0m] [[34mplugins[0m] loaded plugin 'noctalia/wallhaven' (2 entries) from /home/walid/.local/state/noctalia/plugins/materialized/official/wallhaven
+01:09:21.741 [[32mINF[0m] [[34mrender[0m] EGL vendor="NVIDIA" version="1.5" APIs="OpenGL_ES OpenGL"
+01:09:21.741 [[32mINF[0m] [[34mrender[0m] OpenGL ES vendor="NVIDIA Corporation" renderer="NVIDIA GeForce RTX 5060/PCIe/SSE2" version="OpenGL ES 3.2 NVIDIA 610.43.03"
+01:09:21.741 [[32mINF[0m] [[34mrender[0m] graphics reset status polling enabled
+01:09:21.746 [[32mINF[0m] [[34mlogind[0m] logind session lock monitor active (/org/freedesktop/login1/session/_31)
+01:09:21.746 [[32mINF[0m] [[34mclipboard[0m] clipboard service bound via ext_data_control_manager_v1
+01:09:21.791 [[32mINF[0m] [[34mscreensaver[0m] logind idle inhibit monitor active
+01:09:21.791 [[32mINF[0m] [[34mdock[0m] dock disabled in config
+01:09:21.791 [[32mINF[0m] [[34mbackdrop[0m] creating on DP-1 (ASUSTek COMPUTER INC - VG249Q3A - DP-1), path=/home/walid/Pictures/Wallpapers/wallhaven-21ow86.png
+01:09:21.791 [[32mINF[0m] [[34mrender[0m] graphics reset status polling enabled
+01:09:21.841 [[32mINF[0m] [[34mtexcache[0m] uploaded /home/walid/Pictures/Wallpapers/wallhaven-21ow86.png
+01:09:21.841 [[32mINF[0m] [[34mwallpaper[0m] creating on DP-1 (ASUSTek COMPUTER INC - VG249Q3A - DP-1), path=/home/walid/Pictures/Wallpapers/wallhaven-21ow86.png
+01:09:21.841 [[32mINF[0m] [[34mbar[0m] creating #0 "default" on DP-1 (ASUSTek COMPUTER INC - VG249Q3A - DP-1), thickness=34 position=top reserve_space=true exclusive_zone=34
+01:09:21.841 [[32mINF[0m] [[34mapp[0m] IPC socket at /run/user/1000/noctalia-wayland-1.sock
+01:09:21.841 [[32mINF[0m] [[34mdmenu[0m] listening on /run/user/1000/noctalia-dmenu-wayland-1.sock
+01:09:21.841 [[32mINF[0m] [[34mtelemetry[0m] telemetry disabled
+01:09:21.844 [[32mINF[0m] [[34mseat[0m] keyboard: keymap loaded
+01:09:21.847 [[32mINF[0m] [[34mtexcache[0m] hit /home/walid/Pictures/Wallpapers/wallhaven-21ow86.png (refCount=2)
+01:09:21.852 [[32mINF[0m] [[34mfile-watcher[0m] watching '/home/walid/.local/state/noctalia/plugins/materialized/official/wallhaven/wallhaven.luau' (id 1)
+01:09:21.852 [[32mINF[0m] [[34mfile-watcher[0m] watching '/home/walid/.local/state/noctalia/plugins/materialized/official/bongocat/bongocat.luau' (id 2)
+01:09:21.890 [[32mINF[0m] [[34mwireplumber[0m] mixer-api ready
+01:09:21.890 [[32mINF[0m] [[34mwireplumber[0m] default-nodes-api ready
+01:09:22.380 [[32mINF[0m] [[34mplugins[0m] source 'official' already up to date
+01:09:22.422 [[32mINF[0m] [[34mplugins[0m] source 'community' already up to date
+01:09:22.854 [[32mINF[0m] [[34mpolkit[0m] registered Polkit authentication agent at /org/noctalia/PolkitAuthenticationAgent
+01:09:22.854 [[32mINF[0m] [[34mapp[0m] polkit authentication agent active
+01:09:31.504 [[33mWRN[0m] [[34mhttp[0m] download failed url=https://api.noctalia.dev/templates curl=28 http=0 error=Connection timed out after 10000 milliseconds
+01:09:31.504 [[33mWRN[0m] [[34mcommunity_templates[0m] failed to refresh community template catalog; using cached metadata when available
+01:15:33.625 [[33mWRN[0m] [[34mtimer[0m] timer callback ScreenTimeService::setEnabled(bool)::{lambda()#1} id=1 took 2016.2ms
+01:15:33.625 [[33mWRN[0m] [[34mmain[0m] poll source 15TimerPollSource dispatch took 2016.5ms
+01:16:05.282 [[33mWRN[0m] [[34mtimer[0m] timer callback ScreenTimeService::setEnabled(bool)::{lambda()#1} id=1 took 1431.7ms
+01:16:05.282 [[33mWRN[0m] [[34mmain[0m] poll source 15TimerPollSource dispatch took 1431.7ms
+01:16:25.917 [[33mWRN[0m] [[34mtimer[0m] timer callback ScreenTimeService::setEnabled(bool)::{lambda()#1} id=1 took 4592.2ms
+01:16:28.342 [[33mWRN[0m] [[34mmain[0m] poll source 15TimerPollSource dispatch took 7017.9ms
+01:16:34.766 [[33mWRN[0m] [[34mtimer[0m] timer callback ScreenTimeService::setEnabled(bool)::{lambda()#1} id=1 took 1193.9ms
+01:16:34.766 [[33mWRN[0m] [[34mmain[0m] poll source 15TimerPollSource dispatch took 1193.9ms
+01:16:41.000 [[33mWRN[0m] [[34mtimer[0m] timer callback ScreenTimeService::setEnabled(bool)::{lambda()#1} id=1 took 1234.0ms
+01:16:41.000 [[33mWRN[0m] [[34mmain[0m] poll source 15TimerPollSource dispatch took 1234.1ms
+01:16:51.426 [[33mWRN[0m] [[34mtimer[0m] timer callback ScreenTimeService::setEnabled(bool)::{lambda()#1} id=1 took 5424.9ms
+01:16:51.426 [[33mWRN[0m] [[34mmain[0m] poll source 15TimerPollSource dispatch took 5425.0ms
+01:16:58.292 [[33mWRN[0m] [[34mtimer[0m] timer callback ScreenTimeService::setEnabled(bool)::{lambda()#1} id=1 took 1866.2ms
+01:16:58.292 [[33mWRN[0m] [[34mmain[0m] poll source 15TimerPollSource dispatch took 1866.3ms
+01:17:04.603 [[33mWRN[0m] [[34mtimer[0m] timer callback ScreenTimeService::setEnabled(bool)::{lambda()#1} id=1 took 1310.5ms
+01:17:04.603 [[33mWRN[0m] [[34mmain[0m] poll source 15TimerPollSource dispatch took 1310.6ms
+01:17:14.121 [[33mWRN[0m] [[34mtimer[0m] timer callback ScreenTimeService::setEnabled(bool)::{lambda()#1} id=1 took 4518.2ms
+01:17:14.304 [[33mWRN[0m] [[34mmain[0m] poll source 15TimerPollSource dispatch took 4700.5ms
+01:17:21.903 [[33mWRN[0m] [[34mmain[0m] poll source 15TimerPollSource dispatch took 2599.8ms
+01:17:24.607 [[33mWRN[0m] [[34mtimer[0m] timer callback TooltipManager::handleHoverChange(InputArea*)::{lambda()#1} id=105 took 1035.4ms
+01:17:24.607 [[33mWRN[0m] [[34mmain[0m] poll source 15TimerPollSource dispatch took 1035.4ms
+01:46:37.879 [[33mWRN[0m] [[34mhttp[0m] download failed url=https://i.scdn.co/image/ab67616d0000b27377598350682bd2b39d58582e curl=28 http=0 error=Connection timed out after 10000 milliseconds
+04:20:13.755 [[32mINF[0m] [[34msession[0m] reboot requested: compositor=Niri env_hint="niri:niri" xdg_session_id=1 user=walid
+04:20:13.763 [[32mINF[0m] [[34msession[0m] reboot: systemctl reboot launched
